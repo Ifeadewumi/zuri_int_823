@@ -14,11 +14,11 @@ Kindly contact me through the form [here](s23zuri.heroku.com)
 ![Homepage Screenshot](/webpage_screenshot.jpg)
 
 ## Sections:
-💥 About me
-💥 Education
-💥 Certifications
-💥 Skills
-💥 Projects
+💥 About me \
+💥 Education \
+💥 Certifications \
+💥 Skills \
+💥 Projects \
 💥 Contact me
 
 

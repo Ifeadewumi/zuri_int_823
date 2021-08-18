@@ -39,19 +39,19 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link headerachor" href="index.html">Home</a>
+                        <a class="nav-link headerachor" href="index">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link headerachor" href="Education.html">Education</a>
+                        <a class="nav-link headerachor" href="education">Education</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link headerachor" href="skill.html">Skills</a>
+                        <a class="nav-link headerachor" href="skill">Skills</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link headerachor" href="Project.html">Projects</a>
+                        <a class="nav-link headerachor" href="project">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link headerachor" href="contact.html">Contact Me</a>
+                        <a class="nav-link headerachor" href="contact">Contact Me</a>
                     </li>
              </ul>
         </nav>
@@ -81,6 +81,18 @@
             <a class="sayhello" href="#contact">Say Hello <span class="wave">👋</span></a>
             <div class="col-lg-6 connect-image">
             <img  class= "connection" src="Image/connection.svg" alt="">
+        </div>
+
+        <div style="margin:80px">
+            <p>
+                Please write your name, email address and a message below if you have any questions.
+                I will be happy to contact you directly and answer your questions as soon as possible. 
+            </p>
+            <form method="post">
+            {% csrf_token %}
+                {{form.as_p}}
+                <button type="submit">Submit</button>
+            </form>
         </div>
         </div>
     </section>

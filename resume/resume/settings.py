@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # 'myapp.apps.AppNameConfig'
 ]
 
 MIDDLEWARE = [
@@ -54,7 +55,7 @@ ROOT_URLCONF = 'resume.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -99,6 +100,13 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+#email backend
+# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+EMAIL_BACKEND = 'django_ses.SESBackend'
+AWS_ACCESS_KEY_ID = 'AKIAVWCAZJRM2EHEOVX2'
+AWS_SECRET_ACCESS_KEY = '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'
+AWS_SES_REGION_NAME = 'us-east-1' #(ex: us-east-2)
+AWS_SES_REGION_ENDPOINT ='email.us-east-1.amazonaws.com' #(ex: email.us-east-2.amazonaws.com)
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.0/topics/i18n/

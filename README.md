@@ -1,36 +1,33 @@
 # Interactive-Portfolio 
-[![GitHub](https://img.shields.io/github/license/IfeoluwaAdewumi15/Interactive-Portfolio?color=green)](https://img.shields.io/github/license/IfeoluwaAdewumi15/Interactive-Portfolio)
+[![GitHub](https://img.shields.io/github/license/IfeAdewumi/Interactive-Portfolio?color=green)](https://img.shields.io/github/license/IfeAdewumi/Interactive-Portfolio)
 ## A Resposive and attractive portfolio for Developers 🔥
-A clean, beautiful and responsive portfolio templete with using only HTML and css.
-Later on add some javascript for animation and designing.
-visit the website [here.](https://IfeoluwaAdewumi15.github.io/Interactive-Portfolio/)
+A clean, beautiful and responsive resume with HTML, CSS and Django.
+
+Still a work in progress.
+visit the website [here.](https://s23zuri.heroku.com)
+
+The [contact form](s23zuri.heroku.com/contact) uses Amazon SES to send the mails to a designated email address.
 
 
-![ezgif com-optimize](https://user-images.githubusercontent.com/53833570/87217363-f9e6ff00-c365-11ea-9e1a-4d017964f2b4.gif)
+Kindly contact me through the form [here](s23zuri.heroku.com)
+
+![Homepage Screenshot](/webpage_screenshot.jpg)
 
 ## Sections:
-💥 About me\
-💥 Education\
-💥 Cretification\
-💥 Skills\
-💥 Projects\
+💥 About me
+💥 Education
+💥 Certifications
+💥 Skills
+💥 Projects
 💥 Contact me
+
+
 
 ## Technology used:
 - HTML
 - CSS
+- Django
 
-## Illustration and Images
-- [Undraw](https://undraw.co/)
-- [Hackerblock](https://hack.codingblocks.com/)
-
-## For the Future
-I'm in the process of learning javascript So,i didn't add any of it 
-If you can help us with these.Please don't hesitate to open a pull request.
-- Add a page loader
-- Add some Animation
-- Enable Dark mode
-- Add some more Section
 
 ## Reference 
-Some Design idea are taken from [Ashutosh Hathidara](https://github.com/ashutosh1919/masterPortfolio)
+Some design concepts are taken from [Ashutosh Hathidara](https://github.com/ashutosh1919/masterPortfolio) and [Ajit Verma](https://github.com/AjitVerma15/Interactive-Portfolio)

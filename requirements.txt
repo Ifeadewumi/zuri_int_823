@@ -50,7 +50,7 @@ py-sudoku==1.0.1
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
 pyee==7.0.4
-pygame==1.9.6
+# pygame==1.9.6
 pylint==2.5.3
 pyparsing==2.4.7
 pyppeteer==0.2.2

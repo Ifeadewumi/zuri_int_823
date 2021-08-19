@@ -46,6 +46,19 @@
               </nav>
           </header>
 
+          {% if messages %}
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                {% for message in messages %}
+                <div class="alert alert-{{ message.tags }}">{{ message }}</div>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+          {% endif %}
+          
+
           <div class="w3-content">
             <img class="mySlides" src="https://res.cloudinary.com/dcoisxs6n/image/upload/v1629356858/hng_banner_qkxwba.png" alt="custom_hng_html_banner1" style="width:100%">
           </div>
@@ -58,7 +71,7 @@
                   <div class="col-lg-6 section-1">
                       <h1 class = "Hello">Hello All ! I'm Ifeoluwa <span class="wave">👋</span></h1>
                       <p>A passionate developer with experience in Web Development, Data Analytics,
-                          Machine Learning and Mathematics. I want to develop practical solutions to societal problems, using technology as one of my tools.</p>
+                          Machine Learning and Mathematics. I want to develop practical solutions to societal problems, using technology as one of my tools. Let work together <a href="{% url 'contact' %}">contact me today</a></p>
                           <div class=social_media_icon>
                             <a class="btn" href="https://www.twitter.com/TheIfeAdewumi/" target=_blank>
                               <i class="fab fa-twitter"></i>

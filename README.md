@@ -29,5 +29,5 @@ Kindly contact me through the form [here](s23zuri.heroku.com)
 - Django
 
 
-## Reference 
-Some design concepts are taken from [Ashutosh Hathidara](https://github.com/ashutosh1919/masterPortfolio) and [Ajit Verma](https://github.com/AjitVerma15/Interactive-Portfolio)
+<!-- ## Reference 
+Some design concepts are taken from [Ashutosh Hathidara](https://github.com/ashutosh1919/masterPortfolio) and [Ajit Verma](https://github.com/AjitVerma15/Interactive-Portfolio) -->

@@ -104,11 +104,18 @@ AUTH_PASSWORD_VALIDATORS = [
 
 #email backend
 # EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-EMAIL_BACKEND = 'django_ses.SESBackend'
-AWS_ACCESS_KEY_ID = 'AKIAVWCAZJRM2EHEOVX2'
-AWS_SECRET_ACCESS_KEY = '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'
-AWS_SES_REGION_NAME = 'us-east-1' #(ex: us-east-2)
-AWS_SES_REGION_ENDPOINT ='email.us-east-1.amazonaws.com' #(ex: email.us-east-2.amazonaws.com)
+# AWS details
+# EMAIL_BACKEND = 'django_ses.SESBackend'
+# AWS_ACCESS_KEY_ID = 'AKIAVWCAZJRM2EHEOVX2'
+# AWS_SECRET_ACCESS_KEY = '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'
+# AWS_SES_REGION_NAME = 'us-east-1' #(ex: us-east-2)
+# AWS_SES_REGION_ENDPOINT ='email.us-east-1.amazonaws.com' #(ex: email.us-east-2.amazonaws.com)
+
+# mailtrap
+EMAIL_HOST = 'smtp.mailtrap.io'
+EMAIL_HOST_USER = 'ee3e781a58bd12'
+EMAIL_HOST_PASSWORD = '4a9447343a7445'
+EMAIL_PORT = '2525'
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.0/topics/i18n/
